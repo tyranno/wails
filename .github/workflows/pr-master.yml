@@ -109,3 +109,21 @@ jobs:
           echo "Skipping tests for sponsor update branch"
           echo "This is an automated update of the sponsors image."
         continue-on-error: true
+
+  # Aggregate job that satisfies the "Run Go Tests" branch protection required check.
+  # Matrix jobs report as "Run Go Tests (os, version)" — no single check with the bare
+  # name is ever posted, so the requirement is never fulfilled without this fan-in job.
+  go_test_results:
+    name: Run Go Tests
+    if: always()
+    needs: [test_go]
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          result="${{ needs.test_go.result }}"
+          if [[ "$result" == "success" || "$result" == "skipped" ]]; then
+            exit 0
+          else
+            echo "Go tests result: $result"
+            exit 1
+          fi
