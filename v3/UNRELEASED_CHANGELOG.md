@@ -25,6 +25,7 @@ After processing, the content will be moved to the main changelog and this file 
 
 ## Fixed
 <!-- Bug fixes -->
+- Remove generic indirection aliases and consolidate map key types in [PR](https://github.com/wailsapp/wails/pull/5331) by @fbbdev
 
 ## Deprecated
 <!-- Soon-to-be removed features -->
