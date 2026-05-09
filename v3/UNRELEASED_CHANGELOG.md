@@ -20,6 +20,7 @@ After processing, the content will be moved to the main changelog and this file 
 
 ## Changed
 <!-- Changes in existing functionality -->
+- Switch HiddenOnTaskbar to use WS_EX_TOOLWINDOW in [PR](https://github.com/wailsapp/wails/pull/5371) by @leaanthony
 - Reorder dependencies and remove webview2 replace directive in go.mod in [PR](https://github.com/wailsapp/wails/pull/5370) by @atterpac
 - Update sponsors SVG in [PR](https://github.com/wailsapp/wails/pull/5358) by @github-actions[bot]
 
