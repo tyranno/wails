@@ -17,6 +17,7 @@ After processing, the content will be moved to the main changelog and this file 
 
 ## Added
 <!-- New features, capabilities, or enhancements -->
+- Add go_test_results job to aggregate Go test results in [PR](https://github.com/wailsapp/wails/pull/5316) by @leaanthony
 
 ## Changed
 <!-- Changes in existing functionality -->
