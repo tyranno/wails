@@ -27,6 +27,7 @@ After processing, the content will be moved to the main changelog and this file 
 
 ## Fixed
 <!-- Bug fixes -->
+- Use notification object for macOS single-instance message in [PR](https://github.com/wailsapp/wails/pull/5289) by @overlordtm
 - Batch Windows callbacks to prevent promise loss under heavy load in [PR](https://github.com/wailsapp/wails/pull/5383) by @taliesin-ai
 
 ## Deprecated
