@@ -17,6 +17,7 @@ After processing, the content will be moved to the main changelog and this file 
 
 ## Added
 <!-- New features, capabilities, or enhancements -->
+- Adds indirect dependency github.com/coder/websocket to gin-service example in [PR](https://github.com/wailsapp/wails/pull/5400) by @taliesin-ai
 - Add deep equality comparison support to build assets tests in [PR](https://github.com/wailsapp/wails/pull/5402) by @leaanthony
 
 ## Changed
