@@ -22,6 +22,7 @@ After processing, the content will be moved to the main changelog and this file 
 
 ## Changed
 <!-- Changes in existing functionality -->
+- Consolidate build output into assets directory in [PR](https://github.com/wailsapp/wails/pull/5401) by @taliesin-ai
 - Update sponsors SVG in [PR](https://github.com/wailsapp/wails/pull/5399) by @github-actions[bot]
 
 ## Fixed
